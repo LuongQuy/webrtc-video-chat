@@ -1,0 +1,19 @@
+#container{
+    width: 70%;
+    margin: 30px 15% 30px 15%;
+    padding: 0px;
+}
+#video{
+    width: 80%;
+    float: left;
+}
+#localVideo{
+    width: 49%;
+}
+#remoteVideo{
+    width: 49%;
+}
+
+#info{
+    margin-bottom: 30px
+}

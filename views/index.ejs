@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video call</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="info">
+            <input id="roomNumber" type="text">
+            <button id="goRoom">Go</button>
+        </div>
+        <div id="video" class="col-md-10 col-md-offset-1">
+            <video id="localVideo" autoplay style="border: 1px black solid" muted="muted"></video>
+            <video id="remoteVideo" autoplay style="border: 1px black solid"></video>
+        </div>
+    </div>
+    <script src="./socket.io.js"></script>
+    <script src="./client.js"></script>
+</body>
+
+</html>
